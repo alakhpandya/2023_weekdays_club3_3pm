@@ -7,10 +7,9 @@ void square(int p){
 float avg(int p, int q){
     float average;
     average = (p + q)/2.0;
-    // printf("Average = %.2f", average);
+    // printf("Average = 0.2f", average);
     return average;
 }
-
 int main()
 {
     // Take 4 integers from user, find average of first two and average of last two using avg function and add both the averages. Print the final answer.
@@ -26,7 +25,6 @@ int main()
     scanf("%d", &d);
     // square(a);
     // printf("p = %d", p);
-
     // avg(10, 20);
     a1 = avg(a, b);
     a2 = avg(c, d);
