@@ -11,7 +11,11 @@ int add(int *p1, int *p2){
 void add(int *p1, int *p2, int *p3){
     *p3 = *p1 + *p2;
 }
-
+int sum(int x, int y){
+    int z;
+    z = x + y;
+    return z;
+}
 
 int main()
 {
@@ -23,7 +27,8 @@ int main()
     printf("Enter two integers:\n");
     scanf("%d%d", pa, pb);
 
-    add(pa, pb, pc);
+    // add(pa, pb, pc);
+    c = sum(a, b);
 
     printf("Sum = %d", c);
     return 0;
