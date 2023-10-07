@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "JUL7.C": "cpp"
+        "JUL7.C": "cpp",
+        "string.h": "c"
     }
 }
